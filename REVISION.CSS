@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-size: 25px;
+font-weight: bolder;
+text-align: justify;
+color: rgb(255, 200,215);
+}
+h6{
+    font-size: 50%;
+    color: #a0891f;
+    
+
+    
+}
+h5{
+    font-size: 3rem;
+    color: hsl(280, 50%, 50%);
+}

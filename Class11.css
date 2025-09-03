@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #666;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+color: white;
+}
+
+section{
+    display: flex;
+}
+nav{
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+@media (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+}

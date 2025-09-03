@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class="form-cointainer">
+        <h2>Register Here</h2>
+        <form action="#">
+        <label for="name">Full Name</label>
+        <input type="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label for="username">Choose username</label>
+        <input type="username" placeholder="Create a username" required>
+
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Create a password" required>
+
+        <label for="dob">Date of birth</label>
+        <input type="date" placeholder="" required>
+
+        <label for="phone">Phone number</label>
+        <input type="tel" placeholder="+234......." required>
+
+        <label for="address">Address</label>
+      <textarea name=""address id="address" rows="3" placeholder="Your address" required></textarea>
+
+      <label for="gender">Gender</label>
+      <div class="gender-options">
+    <label for="gen1"><input type="radio" value="male" required>Male</label>
+    <label for="gen2"><input type="radio" value="female" required>Female</label>
+    <label for="gen3"><input type="radio" value="others" required>Others</label>
+      </div>
+      <label for="allergy">Do you have any allergy</label>
+      <input type="text" placeholder="e.g., peanuts, dust, etc.">
+
+      <div class="Checkbox">
+<input type="checkbox" required>
+<label for="agree">I agree to the terms & condition</label>
+</div>
+
+<button type="submit">Submit</button>
+</form>
+</div> 
+</body>
+</html>

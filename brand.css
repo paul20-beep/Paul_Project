@@ -1,0 +1,59 @@
+.myCointainer{
+    width: 50%;
+    overflow: auto;
+    margin-right: 10px;
+    
+
+}
+.myCointainer div{
+    width: 33%;
+    float: left;
+    margin-right: 10px;
+
+   
+}
+div{
+    width: 33%;
+    display: inline-block;
+    margin-right: auto;
+}
+div{
+    background-color: goldenrod;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.mySony1{
+    height: 11cm;
+    width: 33%;
+}
+.mySony2{
+    height: 5cm;
+}
+.mySony3{
+    height: 5cm;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: blue;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li{
+    font-weight: bolder;
+    color: black;
+    font-family: fantasy;
+}
+p{
+    padding: 10px;
+
+}
+h1{
+    background-color: bisque;
+    width: 33%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+}

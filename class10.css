@@ -1,0 +1,98 @@
+.Div{
+    width: 50%;
+}
+
+#one{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+#two{
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid gold;
+    margin: 10px;
+}
+
+#three{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+#myHeader{
+    background-color: lightblue;
+    color: black;bo
+    padding: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.city{
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+}
+*{
+    box-sizing:  border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+    height: 300px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-decoration: 2px underline solid blueviolet;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

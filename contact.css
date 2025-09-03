@@ -1,0 +1,35 @@
+#firstitem{
+    background-color: grey;
+}
+.content{
+    background-color: blue;
+    width: 50%;
+margin: auto;
+}
+
+#firstitem{
+    background-color: pink;
+     margin-left: 15%;
+    width: 70%;
+    margin-right: 15%;
+   
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+#contactbox h3{
+    text-align: left;
+}
+.content h3{
+            color: white;
+            text-align: left;
+            
+}
+h2{
+    text-align: center;
+}
+
+

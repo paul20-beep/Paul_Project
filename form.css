@@ -1,0 +1,90 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /*  height: 100vh;  */
+
+}
+
+.form-cointainer{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+font-weight: 600;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.gender-options{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.checkbox label{
+   font-weight: lighter;
+   font-style: italic;
+   color: #666;
+}
+
+
+
+.checkbox input[type="checkbox"] {
+    margin: 0;
+    width: auto;
+    accent-color: #4caf50;
+transform: scale(1.2);
+}
+    
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover{
+    background-color: #4caf50;
+}

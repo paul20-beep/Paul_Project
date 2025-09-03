@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3f51b5;
+    background: #f2f4f8;
+}
+.navbar{
+    background-color: grey;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.nav-links a{
+    color: red;
+    text-decoration: none;
+    font-weight: 900;
+    transition: color 0.5s;
+    
+
+}
+
+.nav-links a:hover{
+    color: #ffd54f;
+}
+.hero img{
+    width: 100%;
+    height: 50;
+    display: block;
+    filter: brightness(50%);
+}
+
+.content{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 50px;
+    background: grey;
+    border-radius: 10px;
+}
+
+.content h1{
+  color: red;
+  margin-bottom: 20px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+footer{
+    background: red;
+    padding: 40px;
+    color: #f2f4f8;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+p{
+    font-size: medium;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

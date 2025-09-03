@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="class14.css">
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <form action="#">
+        <label for="fname">Full Name</label>
+        <input type="text">
+
+        <br><br>
+        <label for="username">Username</label>
+        <input type="text">
+
+        <br> <br> <br>
+        <input type="submit">
+        <button value="Submit" >Submit</button>
+    </form>
+
+    <h2>Text Field: value and placeholder</h2>
+    <form action="#">
+<label for="username">Enter Username: </label>
+<input type="text" value="username">
+ </form>
+
+ <br>
+ <form action="#">
+    <label for="username">Enter Username: </label>
+<input type="text" placeholder="username">
+
+ </form>
+ <br>
+ <h2>Radio Buttons</h2>
+ <form action="#">
+    <input type="radio" value="Rice">
+    <label for="rice">Rice</label>
+    <br>
+    <input type="Radio" value="Beans">
+    <label for="beans">Beans</label>
+    <br>
+   <input type="radio" value="spag">
+   <label for="spag">Spag</label>
+ </form>
+    
+
+ <br>
+ <h2>Checkbox buttons</h2>
+ <form action="#">
+<input type="checkbox">
+<label for="bike">i have a bike</label>
+<br>
+<input type="checkbox">
+<label for="keke">i have a keke napep</label>
+<br>
+<input type="checkbox">
+<label for="car">i have a car</label>
+</form>
+
+<br>
+<h2>Target Attribute</h2>
+<form action="#" target="_blank">
+    <label for="username">Username</label>
+    <input type="text">
+<br>
+<label for="password">Password</label>
+<input type="password">
+<br>
+<input type="submit">
+
+<br>
+
+<form action="#" target="_self">
+    <label for="username">Username</label>
+    <input type="text">
+<br>
+<label for="password">Password</label>
+<input type="password">
+<br>
+<input type="submit">
+
+<br>
+
+<form action="#" target="_parent">
+    <label for="username">Username</label>
+    <input type="text">
+<br>
+<label for="password">Password</label>
+<input type="password">
+<br>
+<input type="submit">
+<br>
+
+<form action="#" target="_top">
+    <label for="username">Username</label>
+    <input type="text">
+<br>
+<label for="password">Password</label>
+<input type="password">
+<br>
+<input type="submit">
+</form>
+
+<br>
+<h2>Auto Complete Attribute</h2>
+<form action="#" autocomplete="on">
+    <label for="name">Surname</label>
+    <input type="text">
+    <br>
+    <label for="name">Other Name</label>
+    <input type="text">
+<br>
+<input type="submit">
+</form>
+
+
+<h2>HTML form elements</h2>
+<form action="#">
+    <label for="cars">choose a car:</label>
+    <select name="cars" id="cars">
+<option value="bmw">BMW</option>
+<OPtion value="chev">Chevrolet</OPtion>
+<option value="mcla">Mc claren</option>
+<option value="ferrari">Ferrari</option>
+    </select>
+</form>
+
+<br>
+<h3>textarea</h3>
+<form action="#">
+    <label for="address">Enter Adress</label>
+    <textarea name="address" id="address" style="width: 250px; height: 200px;" ></textarea>
+</form>
+
+<br>
+<h3>feildset/Legend</h3>
+<form action="#">
+    <fieldset style="width: 50%; text-align: left;">
+        <legend>Profile:</legend>
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" value="Phil">
+        <br>
+        <label for="1name">Last Name</label>
+        <br>
+        <input type="text" value="Adebayo">
+        <br>
+        <label for="message">Message here</label>
+        <br>
+<textarea name="message" id="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime praesentium corrupti commodi velit, possimus quos delectus consectetur dolorem quae amet minima sunt ducimus ipsum libero, explicabo tempore labore optio minus!</textarea>
+    </fieldset>
+</form>
+</body>
+</html>
